@@ -143,9 +143,9 @@ class NextScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Next Screen'),
+        title: Text('Next Screen'),
       ),
-      body: const Center(
+      body: Center(
         child: Text('Welcome to the next screen!'),
       ),
     );
